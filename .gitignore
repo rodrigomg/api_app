@@ -63,9 +63,9 @@ Temporary Items
 /priv/static/
 
 # Installer-related files
-/installer/_build
-/installer/tmp
-/installer/doc
-/installer/deps
+_build
+tmp
+doc
+deps
 
 # End of https://www.toptal.com/developers/gitignore/api/phoenix,macos,linux
