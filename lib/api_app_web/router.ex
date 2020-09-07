@@ -16,6 +16,7 @@ defmodule ApiAppWeb.Router do
   scope "/", ApiAppWeb do
     pipe_through :browser
 
+    get "/hello", HelloController, :world
     get "/", PageController, :index
   end
 
